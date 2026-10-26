@@ -6,6 +6,8 @@ small window on the desktop. No 8GadgetPack needed.
 **[⬇ Download the latest version](https://github.com/livonianlabs/modern-meters-app-releases/releases/latest)**
 · [Русский](#по-русски)
 
+[![Support us on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/silverenio)
+
 ![GPU Meter in Glass, Neon, Retro terminal and Matrix](docs/styles-1.png)
 ![GPU Meter in Gray 90s, Rainbow, Light and Carbon](docs/styles-2.png)
 
@@ -71,6 +73,12 @@ Exit from the tray menu (untick *Start with Windows* first), then delete the app
 `%LOCALAPPDATA%\ModernMeters\App`. If you turned on SSD life, run
 `smart\install-disk-health.ps1 -Uninstall` as administrator first.
 
+## Support
+
+Modern Meters from here is free, all of it. If you like it, you can
+[buy us a coffee on Ko-fi](https://ko-fi.com/silverenio) (also in the tray menu). Questions, ideas
+or bugs: [open an issue](https://github.com/livonianlabs/modern-meters-app-releases/issues).
+
 ## For 8GadgetPack
 
 The same gadgets for the Windows Sidebar (8GadgetPack) are free and open source:
@@ -93,6 +101,9 @@ The same gadgets for the Windows Sidebar (8GadgetPack) are free and open source:
 гаджеты», стиль, цвет акцента, язык, «Поверх всех окон», анимации, автозапуск, обновления. Гаджет
 перетаскивается за заголовок; ⚙ и ✕ появляются под мышью. Новая версия появляется в заголовке
 как **↑ 0.9.1**, клик ставит её.
+
+**Поддержать:** программа отсюда бесплатна целиком. Если нравится, можно
+[угостить нас кофе на Ko-fi](https://ko-fi.com/silverenio) (есть и в меню значка).
 
 **Удаление:** выйди через меню (сначала сними «Запускать вместе с Windows»), удали папку программы
 и `%LOCALAPPDATA%\ModernMeters\App`.
