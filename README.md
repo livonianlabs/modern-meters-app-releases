@@ -46,7 +46,7 @@ has a touch of its own: a cursor retyping the title, a flickering sign, a tube w
 
 ## Install
 
-1. Download `ModernMeters-<version>.zip` from the
+1. Download `ModernMeters-<version>-win-x64.zip` from the
    [latest release](https://github.com/livonianlabs/modern-meters-app-releases/releases/latest).
 2. Unpack it into a folder of your choice, for example `Documents\Modern Meters`.
 3. Run `ModernMeters.exe`. The first start lines the gadgets up along the right edge and asks
@@ -102,7 +102,7 @@ The same gadgets for the Windows Sidebar (8GadgetPack) are free and open source:
 каждый в своём окошке. 8GadgetPack не нужен. 17 стилей, у каждого своя фишка; плавная зона на
 графиках; сигналы перегрева и обрыва связи; радар осадков; Core Temp в два клика.
 
-**Установка:** скачай `ModernMeters-<версия>.zip` из
+**Установка:** скачай `ModernMeters-<версия>-win-x64.zip` из
 [последнего выпуска](https://github.com/livonianlabs/modern-meters-app-releases/releases/latest),
 распакуй в любую папку и запусти `ModernMeters.exe`. Если Windows скажет «Система Windows защитила
 ваш компьютер», нажми **Подробнее → Выполнить в любом случае**: так бывает с любой новой
