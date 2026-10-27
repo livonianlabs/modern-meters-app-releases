@@ -27,8 +27,9 @@ small window on the desktop. No 8GadgetPack needed.
 - **Network:** download and upload with a graph, Wi-Fi network and signal, addresses (hidden until
   clicked), firewall, link speed, ping, traffic per session and in total.
 - **Drives:** each disk with its partitions, health, SSD life, temperature, read and write speed.
-- **Weather:** now, the next hours as a chart, a rain radar map, rain in the next two hours, three
-  days, sunrise and sunset, UV index and air quality, from [Open-Meteo](https://open-meteo.com/).
+- **Weather:** now, the next hours as a chart, rain in the next two hours, three days, sunrise and
+  sunset, UV index, from [MET Norway](https://api.met.no/); air quality over Europe from Copernicus
+  (contains modified Copernicus Atmosphere Monitoring Service information).
 
 A **live zone** at the right of every graph shows the last seconds five times a second. **Alarms**
 (the ♪ on a gadget's title) sound when the processor or graphics card overheats, video memory is
@@ -50,6 +51,9 @@ oscilloscope and an emergency stop), **Hi-Fi 70s**, **LCD**, **Glow tubes**, **M
 **Tactical glass**. 45 in all, each with a touch of its own (a cursor retyping the
 title, needles swinging past and settling, eggs that hatch...) and easter eggs to find. Rest the
 mouse on a style in the tray menu to try it on, or let **Style of the day** pick one for you.
+
+Free here: Auto, Style of the day, Dark, Light, Glass, Neon 77 and the retro terminal.
+The other styles come with Modern Meters from the Microsoft Store (coming soon), in packs or all at once with Premium; rest the mouse on one in the menu to try it on.
 
 ![CPU Meter in Digital rain, Neon 77, Atompunk and Dark](docs/cpu.png)
 
@@ -79,9 +83,9 @@ and current Windows 10. .NET is included.
 
 ## Privacy
 
-Modern Meters collects nothing about you. It connects to: Open-Meteo (weather, for the place you
-pick or the one Windows' location service gives), RainViewer and Esri (the radar map, only while it
-shows), api.ipify.org (your external IP for the Network gadget, every 30 minutes), 1.1.1.1 (ping),
+Modern Meters collects nothing about you. It connects to: MET Norway (weather, for the place you
+pick or the one Windows' location service gives, rounded to about 1 km), livonianlabs.github.io
+(air quality tiles), OpenStreetMap's Nominatim (place names), api.ipify.org (your external IP for the Network gadget, every 30 minutes), 1.1.1.1 (ping),
 alcpu.com (Core Temp, only when you ask for it) and GitHub (the daily check for a new version). The
 glass styles read your wallpaper to draw it; it stays on your computer. Settings stay in
 `%LOCALAPPDATA%\ModernMeters\App`.
@@ -94,7 +98,7 @@ Exit from the tray menu (untick *Start with Windows* first), then delete the app
 
 ## Support
 
-Modern Meters from here is free, all of it. If you like it, you can
+Modern Meters from here is free. If you like it, you can
 [buy us a coffee on Ko-fi](https://ko-fi.com/silverenio) (also in the tray menu). Questions, ideas
 or bugs: [open an issue](https://github.com/livonianlabs/modern-meters-app-releases/issues).
 
