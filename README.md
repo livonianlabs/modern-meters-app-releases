@@ -8,38 +8,45 @@ small window on the desktop. No 8GadgetPack needed.
 
 [![Support us on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/silverenio)
 
-![GPU Meter in Glass, Neon, Retro terminal and Matrix](docs/styles-1.png)
-![GPU Meter in Gray 90s, Rainbow, Light and Carbon](docs/styles-2.png)
+![GPU Meter in Dark, Neon 77, Digital rain and Atompunk](docs/styles-1.png)
+![GPU Meter in Terminal: monochrome, Rainbow, Gray 90s and Light](docs/styles-2.png)
 
 > **Beta (0.9).** Everything works, but it has been tried on few computers so far. If something
 > looks wrong, please [open an issue](https://github.com/livonianlabs/modern-meters-app-releases/issues).
 
 ## What it shows
 
-- **CPU:** total load and its graph, clock, uptime, the busiest program, memory, every core (P- and
-  E-cores apart on hybrid Intel processors) or every thread, temperatures from Core Temp.
-- **GPU:** load, video memory, memory controller, power, fan, clocks, temperature, encoder and
-  decoder, PCIe link. NVIDIA cards are read directly (NVML), the others through DirectX.
+- **CPU:** total load and its graph, clock, uptime, memory, every core (P- and E-cores apart on
+  hybrid Intel processors) or every thread, temperatures from Core Temp (fetched in two clicks if
+  you don't have it). A click on *Busiest* lists the five busiest programs.
+- **GPU:** load and temperature rings, video memory, memory controller, power, fan, clocks,
+  encoder and decoder, PCIe link, the busiest programs. NVIDIA cards are read directly (NVML),
+  the others through DirectX.
 - **Network:** download and upload with a graph, Wi-Fi network and signal, addresses (hidden until
   clicked), firewall, link speed, ping, traffic per session and in total.
-- **Drives:** each disk with its partitions, health, read and write speed and activity; SSD life
-  and drive temperatures once turned on (one click, needs administrator rights once).
-- **Weather:** now, the next hours as a chart, rain in the next two hours, three days, sunrise and
-  sunset, UV index and air quality, from [Open-Meteo](https://open-meteo.com/).
+- **Drives:** each disk with its partitions, health, SSD life, temperature, read and write speed.
+- **Weather:** now, the next hours as a chart, a rain radar map, rain in the next two hours, three
+  days, sunrise and sunset, UV index and air quality, from [Open-Meteo](https://open-meteo.com/).
+
+A **live zone** at the right of every graph shows the last seconds five times a second. **Alarms**
+(the ♪ on a gadget's title) sound when the processor or graphics card overheats, video memory is
+nearly full or the connection drops. If Windows' performance counters are broken, a gadget offers
+to repair them.
 
 ## Styles
 
-Glass, Colored glass, Classic, Light, Carbon, Rainbow, **Liquid** and **Air** (the desktop shows
-through, blurred), Retro terminal and three more terminals, Matrix, Neon and Gray 90s, or Auto
-(Light or Glass as Windows is set). Each has a touch of its own: the terminal's cursor retypes the
-title, the Matrix decodes it, Neon flickers like a sign, the glass catches a glint... The accent
-color is yours to pick.
+**Dark**, **Light** and **Auto** (as Windows is set); **Glass** and **Colored glass**, **Liquid** (a
+thick slab of glass bending the wallpaper, with ripples under the mouse) and **Air**, all four
+showing the wallpaper through, sharp or blurred as you like; **Carbon** and **Rainbow**; four
+**terminals** (retro green, aubergine, monochrome, blue commander); **Digital rain**, where even
+the graphs and numbers are made of falling glyphs; **Neon 77**; **Atompunk**; **Gray 90s**. Each
+has a touch of its own: a cursor retyping the title, a flickering sign, a tube warming up...
 
-![CPU Meter in Glass, Neon, Matrix and Rainbow](docs/cpu.png)
+![CPU Meter in Digital rain, Neon 77, Atompunk and Dark](docs/cpu.png)
 
 ## Install
 
-1. Download `ModernMeters-<version>-win-x64.zip` from the
+1. Download `ModernMeters-<version>.zip` from the
    [latest release](https://github.com/livonianlabs/modern-meters-app-releases/releases/latest).
 2. Unpack it into a folder of your choice, for example `Documents\Modern Meters`.
 3. Run `ModernMeters.exe`. The first start lines the gadgets up along the right edge and asks
@@ -54,18 +61,21 @@ and current Windows 10. .NET is included.
 ## Using it
 
 - **The tray icon** (by the clock; a left click brings the gadgets to the front, a right click opens
-  the menu): which gadgets are open, line them up, style, accent color, language (13), always on
-  top, animations, start with Windows, updates.
+  the menu): which gadgets are open, line them up, style, accent color, glass transparency,
+  language (13), always on top, animations, start with Windows.
 - **Drag** a gadget by its title. **⚙** and **✕** appear when the mouse is over it: ⚙ for its own
   settings, ✕ to close it (and whether it should still open at the next start).
-- **Updates:** once a day the app looks for a new version here. It shows as **↑ 0.9.1** on the
-  gadgets' titles; a click installs it. Or tick *Install updates by themselves* in the tray menu.
+- **New versions:** once a day the app looks for one here. It shows as **↑ 0.9.2** on the gadgets'
+  titles and in the tray menu; a click opens its page to download it.
 
 ## Privacy
 
 Modern Meters collects nothing about you. It connects to: Open-Meteo (weather, for the place you
-pick or the one Windows' location service gives), api.ipify.org (your external IP for the Network
-gadget, every 30 minutes), 1.1.1.1 (ping) and GitHub (the daily update check). Settings stay in `%LOCALAPPDATA%\ModernMeters\App`.
+pick or the one Windows' location service gives), RainViewer and Esri (the radar map, only while it
+shows), api.ipify.org (your external IP for the Network gadget, every 30 minutes), 1.1.1.1 (ping),
+alcpu.com (Core Temp, only when you ask for it) and GitHub (the daily check for a new version). The
+glass styles read your wallpaper to draw it; it stays on your computer. Settings stay in
+`%LOCALAPPDATA%\ModernMeters\App`.
 
 ## Uninstall
 
@@ -89,18 +99,19 @@ The same gadgets for the Windows Sidebar (8GadgetPack) are free and open source:
 ## По-русски
 
 Гаджеты для рабочего стола Windows 10 и 11: **процессор, видеокарта, сеть, накопители и погода**,
-каждый в своём окошке. 8GadgetPack не нужен.
+каждый в своём окошке. 8GadgetPack не нужен. 17 стилей, у каждого своя фишка; плавная зона на
+графиках; сигналы перегрева и обрыва связи; радар осадков; Core Temp в два клика.
 
-**Установка:** скачай `ModernMeters-<версия>-win-x64.zip` из
+**Установка:** скачай `ModernMeters-<версия>.zip` из
 [последнего выпуска](https://github.com/livonianlabs/modern-meters-app-releases/releases/latest),
 распакуй в любую папку и запусти `ModernMeters.exe`. Если Windows скажет «Система Windows защитила
 ваш компьютер», нажми **Подробнее → Выполнить в любом случае**: так бывает с любой новой
 программой без подписи.
 
 **Как пользоваться:** всё в меню значка у часов (правый клик): какие гаджеты открыты, «Выстроить
-гаджеты», стиль, цвет акцента, язык, «Поверх всех окон», анимации, автозапуск, обновления. Гаджет
-перетаскивается за заголовок; ⚙ и ✕ появляются под мышью. Новая версия появляется в заголовке
-как **↑ 0.9.1**, клик ставит её.
+гаджеты», стиль, цвет акцента, прозрачность стекла, язык, «Поверх всех окон», анимации, автозапуск.
+Гаджет перетаскивается за заголовок; ⚙ и ✕ появляются под мышью. Новая версия появляется в
+заголовке как **↑ 0.9.2**; клик открывает её страницу.
 
 **Поддержать:** программа отсюда бесплатна целиком. Если нравится, можно
 [угостить нас кофе на Ko-fi](https://ko-fi.com/silverenio) (есть и в меню значка).
