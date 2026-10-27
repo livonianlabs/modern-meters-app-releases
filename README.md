@@ -46,8 +46,8 @@ and instruments and worlds: **Reactor** (a control desk with drum counters, a ch
 oscilloscope and an emergency stop), **Hi-Fi 70s**, **LCD**, **Glow tubes**, **Mission control**,
 **Blueprint**, **E-paper**, **Chalkboard**, **8-bit**, **BIOS**, **Videotape**, **Synthwave**,
 **Swarm**, **Biomech**, **Thermal vision**, **Psionic**, **Frontier**, **Biolab**, **Backup power**,
-**Brass**, **Sonar**, **Aquarium**, **Dunes**; and two more see-through ones, **Hologram** and
-**Tactical glass**. 43 in all, each with a touch of its own (a cursor retyping the
+**Brass**, **Sonar**, **Aquarium**, **Dunes**, **Hacker**, **Stone age**; and two more see-through ones, **Hologram** and
+**Tactical glass**. 45 in all, each with a touch of its own (a cursor retyping the
 title, needles swinging past and settling, eggs that hatch...) and easter eggs to find. Rest the
 mouse on a style in the tray menu to try it on, or let **Style of the day** pick one for you.
 
