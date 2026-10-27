@@ -10,6 +10,8 @@ small window on the desktop. No 8GadgetPack needed.
 
 ![GPU Meter in Dark, Neon 77, Digital rain and Atompunk](docs/styles-1.png)
 ![GPU Meter in Terminal: monochrome, Rainbow, Gray 90s and Light](docs/styles-2.png)
+![GPU Meter in Reactor, Hi-Fi 70s, Glow tubes and 8-bit](docs/styles-3.png)
+![GPU Meter in Swarm, Thermal vision, Synthwave and Aquarium](docs/styles-4.png)
 
 > **Beta (0.9).** Everything works, but it has been tried on few computers so far. If something
 > looks wrong, please [open an issue](https://github.com/livonianlabs/modern-meters-app-releases/issues).
@@ -39,8 +41,13 @@ to repair them.
 thick slab of glass bending the wallpaper, with ripples under the mouse) and **Air**, all four
 showing the wallpaper through, sharp or blurred as you like; **Carbon** and **Rainbow**; four
 **terminals** (retro green, aubergine, monochrome, blue commander); **Digital rain**, where even
-the graphs and numbers are made of falling glyphs; **Neon 77**; **Atompunk**; **Gray 90s**. Each
-has a touch of its own: a cursor retyping the title, a flickering sign, a tube warming up...
+the graphs and numbers are made of falling glyphs; **Neon 77**; **Atompunk**; **Bunker**; **Gray 90s**;
+and instruments and worlds: **Reactor** (a control desk with drum counters, a chart recorder, an
+oscilloscope and an emergency stop), **Hi-Fi 70s**, **LCD**, **Glow tubes**, **Mission control**,
+**Blueprint**, **E-paper**, **Chalkboard**, **8-bit**, **BIOS**, **Videotape**, **Synthwave**,
+**Swarm**, **Biomech**, **Thermal vision**, **Psionic**, **Frontier**, **Biolab**, **Backup power**,
+**Brass**, **Sonar**, **Aquarium**. 40 in all, each with a touch of its own (a cursor retyping the
+title, needles swinging past and settling, eggs that hatch...) and easter eggs to find.
 
 ![CPU Meter in Digital rain, Neon 77, Atompunk and Dark](docs/cpu.png)
 
