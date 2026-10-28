@@ -47,13 +47,15 @@ and instruments and worlds: **Reactor** (a control desk with drum counters, a ch
 oscilloscope and an emergency stop), **Hi-Fi 70s**, **LCD**, **Glow tubes**, **Mission control**,
 **Blueprint**, **E-paper**, **Chalkboard**, **8-bit**, **BIOS**, **Videotape**, **Synthwave**,
 **Swarm**, **Biomech**, **Thermal vision**, **Psionic**, **Frontier**, **Biolab**, **Backup power**,
-**Brass**, **Sonar**, **Aquarium**, **Dunes**, **Hacker**, **Stone age**; and two more see-through ones, **Hologram** and
-**Tactical glass**. 45 in all, each with a touch of its own (a cursor retyping the
+**Brass**, **Sonar**, **Aquarium**, **Dunes**, **Hacker**, **Stone age**, **Fog town**, **Underside**; nature with **Forest**,
+**Sunset** and **Ocean**; materials with **Wood**, **Marble** and **Leather**; drawn ones with **Notebook**,
+**Watercolor**, **Comic** and **Kawaii**; **Coffee**, **Midnight**, **Mint** and **Glam**; and two more see-through ones,
+**Hologram** and **Tactical glass**. 60 in all, each with a touch of its own (a cursor retyping the
 title, needles swinging past and settling, eggs that hatch...) and easter eggs to find. Rest the
 mouse on a style in the tray menu to try it on, or let **Style of the day** pick one for you.
 
 Free here: Auto, Style of the day, Dark, Light, Glass, Neon 77 and the retro terminal.
-The other styles come with Modern Meters from the Microsoft Store (coming soon), in packs or all at once with Premium; rest the mouse on one in the menu to try it on.
+The other styles come with [Modern Meters from the Microsoft Store](https://apps.microsoft.com/detail/9P1Q266J11FJ), in packs or all at once with Premium; rest the mouse on one in the menu to try it on.
 
 ![CPU Meter in Digital rain, Neon 77, Atompunk and Dark](docs/cpu.png)
 
@@ -112,8 +114,8 @@ The same gadgets for the Windows Sidebar (8GadgetPack) are free and open source:
 ## По-русски
 
 Гаджеты для рабочего стола Windows 10 и 11: **процессор, видеокарта, сеть, накопители и погода**,
-каждый в своём окошке. 8GadgetPack не нужен. 17 стилей, у каждого своя фишка; плавная зона на
-графиках; сигналы перегрева и обрыва связи; радар осадков; Core Temp в два клика.
+каждый в своём окошке. 8GadgetPack не нужен. 60 стилей, у каждого своя фишка; плавная зона на
+графиках; сигналы перегрева и обрыва связи; погода от MET Norway; Core Temp в два клика.
 
 **Установка:** скачай `ModernMeters-<версия>-win-x64.zip` из
 [последнего выпуска](https://github.com/livonianlabs/modern-meters-app-releases/releases/latest),
@@ -126,7 +128,11 @@ The same gadgets for the Windows Sidebar (8GadgetPack) are free and open source:
 Гаджет перетаскивается за заголовок; ⚙ и ✕ появляются под мышью. Новая версия появляется в
 заголовке как **↑ 0.9.2**; клик открывает её страницу.
 
-**Поддержать:** программа отсюда бесплатна целиком. Если нравится, можно
+**Стили:** отсюда бесплатны Авто, Стиль дня, Тёмный, Светлый, Стекло, Неон 77 и ретро-терминал.
+Остальные есть в [Modern Meters из Microsoft Store](https://apps.microsoft.com/detail/9P1Q266J11FJ), наборами или все сразу с Premium;
+наведи мышь на стиль в меню, чтобы примерить.
+
+**Поддержать:** программа отсюда бесплатна. Если нравится, можно
 [угостить нас кофе на Ko-fi](https://ko-fi.com/silverenio) (есть и в меню значка).
 
 **Удаление:** выйди через меню (сначала сними «Запускать вместе с Windows»), удали папку программы
