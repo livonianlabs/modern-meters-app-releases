@@ -27,8 +27,8 @@ small window on the desktop. No 8GadgetPack needed.
 - **Network:** download and upload with a graph, Wi-Fi network and signal, addresses (hidden until
   clicked), firewall, link speed, ping, traffic per session and in total.
 - **Drives:** each disk with its partitions, health, SSD life, temperature, read and write speed.
-- **Weather:** now, the next hours as a chart, rain in the next two hours, three days, sunrise and
-  sunset, UV index, from [MET Norway](https://api.met.no/); air quality over Europe from Copernicus
+- **Weather:** now, the next hours as a chart, rain in the next two hours, a rain map for the
+  next 12 hours, three days, sunrise and sunset, UV index, from [MET Norway](https://api.met.no/); air quality over Europe from Copernicus
   (contains modified Copernicus Atmosphere Monitoring Service information).
 
 A **live zone** at the right of every graph shows the last seconds five times a second. **Alarms**
@@ -85,7 +85,7 @@ and current Windows 10. .NET is included.
 
 ## Privacy
 
-Modern Meters collects nothing about you. It connects to: MET Norway (weather, for the place you
+Modern Meters collects nothing about you. It connects to: MET Norway (weather and the rain map, for the place you
 pick or the one Windows' location service gives, rounded to about 1 km), livonianlabs.github.io
 (air quality tiles), OpenStreetMap's Nominatim (place names), api.ipify.org (your external IP for the Network gadget, every 30 minutes), 1.1.1.1 (ping),
 alcpu.com (Core Temp, only when you ask for it) and GitHub (the daily check for a new version). The
@@ -115,7 +115,7 @@ The same gadgets for the Windows Sidebar (8GadgetPack) are free and open source:
 
 Гаджеты для рабочего стола Windows 10 и 11: **процессор, видеокарта, сеть, накопители и погода**,
 каждый в своём окошке. 8GadgetPack не нужен. 60 стилей, у каждого своя фишка; плавная зона на
-графиках; сигналы перегрева и обрыва связи; погода от MET Norway; Core Temp в два клика.
+графиках; сигналы перегрева и обрыва связи; погода от MET Norway с картой осадков на 12 часов; Core Temp в два клика.
 
 **Установка:** скачай `ModernMeters-<версия>-win-x64.zip` из
 [последнего выпуска](https://github.com/livonianlabs/modern-meters-app-releases/releases/latest),
