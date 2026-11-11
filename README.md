@@ -47,10 +47,10 @@ and instruments and worlds: **Reactor** (a control desk with drum counters, a ch
 oscilloscope and an emergency stop), **Hi-Fi 70s**, **LCD**, **Glow tubes**, **Mission control**,
 **Blueprint**, **E-paper**, **Chalkboard**, **8-bit**, **BIOS**, **Videotape**, **Synthwave**,
 **Swarm**, **Biomech**, **Thermal vision**, **Psionic**, **Frontier**, **Biolab**, **Backup power**,
-**Brass**, **Sonar**, **Aquarium**, **Dunes**, **Hacker**, **Stone age**, **Fog town**, **Underside**; nature with **Forest**,
+**Brass**, **Sonar**, **Aquarium**, **Dunes**, **Hacker**, **Stone age**, **Fog town**, **Underside**, **Orbital station**; nature with **Forest**,
 **Sunset** and **Ocean**; materials with **Wood**, **Marble** and **Leather**; drawn ones with **Notebook**,
 **Watercolor**, **Comic** and **Kawaii**; **Coffee**, **Midnight**, **Mint** and **Glam**; and two more see-through ones,
-**Hologram** and **Tactical glass**. 60 in all, each with a touch of its own (a cursor retyping the
+**Hologram** and **Tactical glass**. 61 in all, each with a touch of its own (a cursor retyping the
 title, needles swinging past and settling, eggs that hatch...) and easter eggs to find. Rest the
 mouse on a style in the tray menu to try it on, or let **Style of the day** pick one for you.
 
@@ -114,7 +114,7 @@ The same gadgets for the Windows Sidebar (8GadgetPack) are free and open source:
 ## По-русски
 
 Гаджеты для рабочего стола Windows 10 и 11: **процессор, видеокарта, сеть, накопители и погода**,
-каждый в своём окошке. 8GadgetPack не нужен. 60 стилей, у каждого своя фишка; плавная зона на
+каждый в своём окошке. 8GadgetPack не нужен. 61 стиль, у каждого своя фишка; плавная зона на
 графиках; сигналы перегрева и обрыва связи; погода от MET Norway с картой осадков на 12 часов; Core Temp в два клика.
 
 **Установка:** скачай `ModernMeters-<версия>-win-x64.zip` из
